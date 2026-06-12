@@ -31,6 +31,7 @@ export default function App() {
               <a href={"https://youtu.be/SiJie3Z7DG8?si=XENFkq_ZQ3E7tzZI&t=129"}>♪</a>
             </nav>
 
+              <div className={"line"}></div>
             <Routes>
               <Route path="/OMne" element={<OMne/>} />
               <Route path="/Vzdelani" element={<Vzdelani/>} />

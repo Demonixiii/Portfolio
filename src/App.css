@@ -9,6 +9,11 @@ a{
   padding-right: 5%;
 }
 
+.line{
+  border: 3px solid #8c054b;
+  margin: 30px;
+}
+
 li{
   margin-bottom: 75px;
 }
@@ -23,9 +28,6 @@ li{
   max-height: 175px;
 }
 
-.meatNPotatoes .bubble h1{
-  text-decoration: none;
-}
 
 .kont{
   margin-left: 26%;
@@ -50,7 +52,7 @@ p{
 }
 
 .home{
-  padding: 50px;
+  padding: 40px;
 }
 
 .meatNPotatoes h1{
@@ -58,7 +60,6 @@ p{
   font-size: xxx-large;
   margin-top: 70px;
   margin-bottom: 50px;
-  text-decoration: underline;
 }
 
 h2{
@@ -71,6 +72,10 @@ h2{
 
 .home, .meatNPotatoes, body{
   background-color: #dcbfd6;
+}
+
+h1{
+  text-decoration: underline;
 }
 
 
