@@ -8,9 +8,13 @@ function OMne() {
       <h1>O mně</h1>
         <p>Momentálně studuji na SPŠE Ječná, v oboru IT.
           Jsem kreativní a baví mě grafický design.
-          Pracuji pohodlně sama a nemám problém pracovat pod vedením.</p>
+          Pracuji pohodlně sama a nemám problém pracovat pod vedením.
+          Dobře ovládám jak český jazyk, tak anglický jazyk.
+            <br/><br/>
+            V tuto chvíli nemám zájem o zaměstnání, praxi, či stáž.
+        </p>
 
-            <img src={"https://img1.picmix.com/output/stamp/normal/0/0/7/6/2646700_c852a.gif"}/>
+            <img src={"https://img1.picmix.com/output/stamp/normal/0/0/7/6/2646700_c852a.gif"} alt={"meFrfr"}/>
         </div>
       </>
   );
@@ -45,12 +49,12 @@ function Zkusenosti() {
         <div className={"zkus"}>
         <h1>Zkušenosti</h1>
           <ul>
-              <li><p><b>Stáž, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2025</b></p>
+              <li><p><b>Praxe, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2025</b></p>
             <p className={"smol"}> - Webdesign <br/>
             - Podíl na vývoji webu</p>
           </li>
           <li>
-              <p><b>Stáž, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2026</b></p>
+              <p><b>Praxe, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2026</b></p>
           <p className={"smol"}> - Webdesign <br/>
             - Testování</p>
           </li>
@@ -65,7 +69,8 @@ function Portfolio() {
       <>
         <div className={"port"}>
         <h1>Portfolio</h1>
-            <p><b>Github odkaz:</b> <a href={"https://github.com/Demonixiii"}>https://github.com/Demonixiii</a></p>
+            <p><b>Github odkaz:</b> <a href={"https://github.com/Demonixiii?tab=repositories"}>https://github.com/Demonixiii</a></p>
+            <p className={"smol"}>(Zde můžete najít všechny mé veřejné projekty.)</p>
         </div>
       </>
   );
@@ -85,14 +90,14 @@ function Kontakt() {
 
 export default function App() {
 
-  return (
-      <>
-      <div className={"home"}>
-        <h1>Osobní portfolio</h1>
-        <h2>Sára Pirnerová</h2>
+    return (
+        <>
+            <div className={"home"}>
+                <h1>Osobní portfolio</h1>
+                <h2>Sára Pirnerová</h2>
 
-        <p className={"quote"}>"Let us realize that: the privilege to work is a gift,
-          the power to work is a blessing, the love of work is success!" <br/> - David O. McKay
+                <p className={"quote"}>"Let us realize that: the privilege to work is a gift,
+                    the power to work is a blessing, the love of work is success!" <br/> - David O. McKay
         </p>
       </div>
         <div className={"meatNPotatoes"}>
@@ -104,6 +109,7 @@ export default function App() {
               <Link to="/Zkusenosti">Zkušenosti </Link> |{" "}
               <Link to="/Portfolio">Portfolio </Link> |{" "}
               <Link to="/Kontakt">Kontakt </Link>
+              <a href={"https://youtu.be/SiJie3Z7DG8?si=XENFkq_ZQ3E7tzZI&t=129"}>♪</a>
             </nav>
 
             <Routes>
