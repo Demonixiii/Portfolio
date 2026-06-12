@@ -64,6 +64,7 @@ function Portfolio() {
       <>
         <div className={"port"}>
         <h1>Portfolio</h1>
+            <p><b>Github odkaz:</b> <a href={"https://github.com/Demonixiii"}>https://github.com/Demonixiii</a></p>
         </div>
       </>
   );
