@@ -6,9 +6,11 @@ function OMne() {
       <>
         <div className={"oMne"}>
       <h1>O mně</h1>
-        <p>Momentálně studuji na SPŠE Ječná, obor IT.
+        <p>Momentálně studuji na SPŠE Ječná, v oboru IT.
           Jsem kreativní a baví mě grafický design.
-          Pracuji pohodlně sama, ale nemám problém pracovat pod vedením.</p>
+          Pracuji pohodlně sama a nemám problém pracovat pod vedením.</p>
+
+            <img src={"https://img1.picmix.com/output/stamp/normal/0/0/7/6/2646700_c852a.gif"}/>
         </div>
       </>
   );
@@ -19,8 +21,7 @@ function Vzdelani() {
       <>
         <div className={"vzdel"}>
       <h1>Vzdělání</h1>
-          <p>IT, Střední průmyslová škola elektrotechnická, Ječná 30, 121 36 Praha 2 (3. roč.
-            student)</p>
+          <p>IT, Střední průmyslová škola elektrotechnická, Ječná 30, 121 36 Praha 2 <br/>(student 3. ročníku)</p>
           <p className={"smol"}>Září 2023 – současnost</p>
         </div>
       </>
@@ -44,12 +45,12 @@ function Zkusenosti() {
         <div className={"zkus"}>
         <h1>Zkušenosti</h1>
           <ul>
-          <li><p>Stáž, Trilbi s.r.o., Víta Nejedlého 316, 264 01 Sedlčany, květen 2025</p>
+              <li><p><b>Stáž, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2025</b></p>
             <p className={"smol"}> - Webdesign <br/>
-            - Podílela se na vývoji webu</p>
+            - Podíl na vývoji webu</p>
           </li>
           <li>
-          <p>Stáž, Trilbi s.r.o., Víta Nejedlého 316, 264 01 Sedlčany, květen 2026</p>
+              <p><b>Stáž, Trilbi s.r.o.</b>, Víta Nejedlého 316, 264 01 Sedlčany,<b> květen 2026</b></p>
           <p className={"smol"}> - Webdesign <br/>
             - Testování</p>
           </li>
